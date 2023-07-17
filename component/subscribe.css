@@ -1,0 +1,47 @@
+.subscribe {
+    padding: 80px 0px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F8F8;
+    height: auto;
+    padding-bottom: 150px;
+}
+
+.subscribe h3 {
+    font-size: 32px;
+}
+
+.subscribe h4 {
+    font-size: 16px;
+}
+
+input {
+    padding: 24px 32px;
+    width: 100%;
+    border: none;
+}
+
+.subscribe-container {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    flex-direction: column;
+    width: var(--subscribe__conatiner);
+}
+
+.subscribe-heading {
+    display: flex;
+    flex-direction: column;
+    width: 194px;
+    gap: 24px;
+    align-items: center;
+}
+
+.subscribe-btn {
+    padding: 10px 40px;
+    background-color: transparent;
+    border: 1px solid #000000;
+    color: #000000;
+}

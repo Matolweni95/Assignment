@@ -1,0 +1,36 @@
+.footer {
+    color: white;
+    font-size: 24px;
+    letter-spacing: -1.5px;
+    font-weight: 500;
+    background: #FFF;
+    padding: 25px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-social {
+    display: flex;
+    gap: var(--icon__gap);
+}
+
+.foot-icon {
+    background-color: var(--secondary__color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+}
+
+.fab {
+    size: 36px;
+}
+
+button {
+    color: black;
+}

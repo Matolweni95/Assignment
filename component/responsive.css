@@ -1,0 +1,251 @@
+
+@media (max-width: 480px) {
+    /* Your styles for small screens here */
+
+    .hero {
+        margin: 24px 24px 0px 24px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .hero-section {
+        margin: unset;
+    }
+    .hero-section h1 {
+        font-size: 40px;
+        width: unset;
+    }
+
+    .hero-section h3 {
+        width: auto;
+    }
+
+    .hero-text {
+        left: unset;
+        width: 400px;
+        text-align: center;
+    }
+
+    .feature {
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    
+
+    .feature-container {
+        flex-wrap: wrap;
+    }
+
+    .section2-container {
+        display: block;
+        height: unset;
+
+    }
+
+    .section2 {
+        height: auto;
+    }
+
+    .section2-text {
+        width: inherit;
+    }
+
+    .bio {
+        width: fit-content;
+        padding: 24px;
+    }
+
+    .img-bio {
+        width: unset;
+        height: 500px;
+        background-position: center center;
+    }
+
+    .details {
+        width: unset;
+        justify-content: center;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .foot-social {
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+
+    .footer button {
+        display: block;
+    }
+}
+  
+  @media only screen and (min-width: 481px) and (max-width: 767px) {
+    /* Styles for mobile devices */
+
+    .hero {
+
+
+    }
+
+    .hero-section h1 {
+        font-size: 30px;
+        width: unset;
+    }
+
+    .hero-text {
+        left: unset;
+
+    }
+    
+
+    .feature-container {
+        flex-wrap: wrap;
+    }
+
+    .section2-container {
+        display: block;
+        height: auto;
+
+    }
+
+    .section2 {
+        height: auto;
+    }
+
+    .section2-text {
+        width: auto;
+    }
+
+    .bio {
+        width: 100%;
+        padding: unset;
+        padding: 24px 50px 100px 50px;
+    }
+
+    .img-bio {
+        width: unset;
+        height: 500px;
+        background-position: center center;
+    }
+
+    .details {
+        width: unset;
+        justify-content: center;
+        display: block;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
+
+    .foot-social {
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+
+    .footer button {
+        display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Styles for tablets */
+    .hero {
+        margin: 24px 24px 0px 24px;
+        background-size: cover;
+        background-position: center center;
+    }
+
+    .hero-section {
+        margin: unset;
+    }
+    .hero-section h1 {
+        font-size: 100px;
+        width: unset;
+    }
+
+    .hero-section h3 {
+        width: auto;
+    }
+
+    .hero-text {
+        left: 200px;
+        width: 400px;
+        height: auto;
+        text-align: center;
+    }
+    
+    .feature-container {
+        flex-wrap: wrap;
+    }
+
+    .bio {
+        padding: 50px;
+    }
+
+    .section2-text {
+        width: 300px;
+    }
+
+    .img-bio {
+        width: 752px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+    /* Styles for small desktop screens */
+    .hero {
+        background-position: center;
+
+    }
+
+    .hero-section h1 {
+        font-size: 112px;
+        width: unset;
+    }
+
+    .hero-text {
+        left: 150px;
+
+    }
+
+    .feature-container {
+        padding: 0px 10px;
+    }
+
+    .img-bio {
+        width: 500px;
+    }
+
+    .details {
+        width: 50%;
+    }
+
+    .section2-text {
+        width: unset;
+    }
+}
+
+@media only screen and (min-width: 1280px) and (max-width: 1439px) {
+    /* Styles for medium desktop screens */
+
+}
+
+@media only screen and (min-width: 1440px) {
+    /* Styles for large desktop screens */
+
+    .hero-section h1 {
+        font-size: 112px;
+    }
+
+    .hero-text {
+        left: 590px;
+        top: 340px;
+    }
+}
+  
+  
+  
+  
+  

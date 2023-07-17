@@ -1,0 +1,58 @@
+.section2 {
+    background-color: #FFFFFF;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.section2-text {
+    width: 580px;
+}
+
+.section2-container {
+    display: flex;
+    flex-direction: row;
+    height: 853px;
+    
+}
+
+.details {
+    width: 756px;
+    display: flex;
+}
+
+.bio {
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    padding: var(--about__padding);
+}
+
+.section2 h3 {
+    text-align: center;
+}
+
+.about-line {
+    height: 2px;
+    width: 69px;
+    margin-top: 32px;
+    margin-bottom: 84px;
+    background-color: black;
+}
+
+.section2 p {
+    font-size: var(--font__size);
+    text-align: justify;
+}
+
+
+.bio-img {
+    height: 853px; 
+}
+
+.img-bio {
+    width: 752px;
+    background-image: url(/assets/drone8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
