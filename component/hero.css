@@ -7,6 +7,10 @@
     background-image: url(/assets/hero.jpg);
 }
 
+.hidden {
+    display: none;
+}
+
 .logo-letter {
     color: white;
 }

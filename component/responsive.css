@@ -4,25 +4,38 @@
 
     .hero {
         margin: 24px 24px 0px 24px;
-        background-size: cover;
-        background-position: center;
     }
 
     .hero-section {
         margin: unset;
+        display: flex;
+        flex-direction: column;
     }
     .hero-section h1 {
-        font-size: 40px;
+        font-size: 35px;
         width: unset;
+        height: 80px;
     }
 
     .hero-section h3 {
         width: auto;
+        font-size: 17px;
+       
+    }
+    
+    .hidden {
+        display: block;
+        width:-webkit-fill-available;
+    }
+
+    .img-cont {
+        height: 50px;
     }
 
     .hero-text {
         left: unset;
-        width: 400px;
+        width: auto;
+        gap: 20px;
         text-align: center;
     }
 
@@ -88,16 +101,32 @@
 
     }
 
+    .img-cont {
+        height: 80px;
+    }
+
+
+    .hidden {
+        display: block;
+        width:-webkit-fill-available;
+    }
+
     .hero-section h1 {
         font-size: 30px;
+        height: 70px;
         width: unset;
     }
 
     .hero-text {
         left: unset;
+        width: auto;
 
     }
     
+    .hero-section {
+        display: flex;
+        flex-direction: column;
+    }
 
     .feature-container {
         flex-wrap: wrap;
